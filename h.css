@@ -1,0 +1,288 @@
+*{
+
+  padding:0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  color:#cccccc;
+ 
+}
+body{
+  font-family:verdana;
+  background-color:#0d0d0d;
+  display:flex;
+  flex-direction: column;
+  margin:0;
+  padding:0;
+}
+
+/* We don't want any links to be underlined. Let's remove that globally */
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #000000;
+  display: flex;
+  border-radius: 40px;
+  /* let's align the items so everything is nice and centered */
+  align-items: center;
+}
+
+
+/* We want all links in the navbar to be #e7e7e7 */
+.navbar a {
+  color: #e7e7e7;
+  font-size:16px;
+}
+
+.navbar ul {
+ /* Let's reset the margin and padding of the list so it's is flush. */
+  margin: 0;
+  padding: 0;
+  /* Let's remove the bullet points */
+  list-style-type: none;
+  /* display the list flex and align the items centered */
+  display: flex;
+  align-items:center;
+}
+
+.navbar .brand {
+  /*Let's make the anchor display block.
+     This will ensure when we get the full width of the container.
+  */
+  display: block;
+  color: ghostwhite;
+ /* Remove padding from top/bottom and add 24px padding right/left */
+  padding: 0 24px;
+  font-size: 26px;
+}
+
+.navbar ul li a {
+  color: #e7e7e7;
+  padding: 19px;
+  
+  /*Let's make the anchor display block.
+     This will ensure when we hover, focus, or is active we get the full width and height 
+      of the container.
+  */
+  display: block;
+}
+
+/* When a user hovers, focuses or if the link is active change the background */
+.navbar ul a:hover,
+.navbar ul a:focus,
+.navbar ul .active {
+  background-color: #272727;
+}
+
+#Login{
+  border:1px solid #9C3EA5;
+  
+  margin:4px;
+  padding:8px;
+  border-radius:8px;
+}
+.uper{
+  margin:0px;
+  color:white;
+  padding:0px;
+}
+
+.vernier{
+    margin:12px;
+    
+
+    
+    font-size:10px;
+    padding:5px;
+    
+  }
+  .head{
+    border:2px solid black;
+    font-size:22px;
+    height:50px;
+    text-align:center;
+    padding:10px;
+  background-color:#4CA529;
+  color:white;
+  }
+  .p{
+  font-size: 17px;
+    margin:8px;
+    
+  }
+  
+  b{
+    color:#7A8FCB;
+  }
+  
+  
+  
+  .h1{
+    font-size:29px;
+    margin:10px;
+    padding:5px;
+    color: white;
+    
+  }
+  .h2{
+    font-size:25px;
+    margin:10px;
+    padding:5px;
+    color:white;
+  }
+  .img{
+    width:90%;
+    margin:10px;
+  }
+  .h3{
+    font-size:22px;
+    
+    margin:10px;
+    color:white;
+  }
+  i{
+  color:white;
+  }
+  .example{
+    border:1px solid #9C3EA5;
+    border-radius:20px;
+    height:750px;
+    margin:8px;
+    padding:10px;
+    background-color:black;
+  }
+  .example3{
+    border:1px solid #9C3EA5;
+    border-radius:20px;
+    height:300px;
+    margin:5px;
+    padding:10px;
+    background-color:black;
+  }
+  
+  #b{
+    border:1px solid #9C3EA5;
+    border-radius:30px;
+    
+    margin:13px;
+    padding:20px;
+    font-size:20px;
+    background-color:black;
+    
+  }
+  #nb{
+    font-size:20px;
+    text-align:left;
+    margin:8px;
+    padding:10px;
+  }
+
+  
+
+  .ps{
+    color: #262626;
+    font-size:30px;
+    
+  }
+  .hs{
+    color:black;
+    text-align:center;
+    font-size:30px;
+  }
+
+
+  iframe{
+   width:340px; 
+   height:200px;
+   margin:px;
+   padding:8px;
+   
+  
+  }
+  
+  .link{
+    border:1px solid #9C3EA5;
+    border-radius:20px;
+    margin:10px;
+    padding:5px;
+    background-color:black;
+    height:180px;
+    
+    
+  
+    
+    
+  }
+  .insta{
+    
+    margin:10px;
+    font-size:80px;
+    height:60px;
+    
+  }
+  #learn{
+    border:1px solid #9C3EA5;
+    background-color:black;
+    margin:10px;
+    padding:5px;
+    height:470px;
+    border-radius: 20px;
+    
+  }
+  .flex{
+    display:flex;
+    width:95%;
+    margin:10px;
+    padding:5px;
+    border:1px solid yellowgreen;
+    border-radius:25px;
+  }
+  .smallimg{
+    margin:10px;
+    padding:5px;
+    height:80px;
+    width:80px;
+  }
+  .blackimg{
+    text-align:center;
+   
+  }
+  .x{
+    height:10px;
+    width:30px;
+  }
+  
+  #contact{
+    margin:0;
+    padding:15px;
+    border :1px solid #9C3EA5;
+    
+    height: 800px;
+    background-color:white;
+    border-radius: 10px;
+  
+  }
+    
+  
+  
+  #btn{
+    margin:14px;
+    padding:10px;
+    background-color:black;
+    color:white;
+    width:300px;
+    border-color:black;
+    border-radius:10px;
+  }
+  #sub{
+    background-color:black;
+    color:white;
+    border:1px solid #9C3EA5;
+    border-radius: 10px;
+    padding:10px;
+    margin:20px;
+    
+  }
