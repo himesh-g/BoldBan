@@ -5,12 +5,13 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  color:#cccccc;
+ 
  
 }
 body{
   font-family:verdana;
   background-color:#0d0d0d;
+  color:#cccccc;
   display:flex;
   flex-direction: column;
   margin:0;
